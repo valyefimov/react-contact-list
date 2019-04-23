@@ -1,0 +1,16 @@
+.editCell {
+  text-align: right;
+  opacity: 0;
+  width: 50px;
+}
+
+.deleteCell {
+  text-align: right;
+  opacity: 0;
+  width: 50px;
+}
+
+.row:hover .editCell,
+.row:hover .deleteCell {
+  opacity: 1;
+}
